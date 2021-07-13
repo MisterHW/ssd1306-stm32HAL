@@ -15,7 +15,8 @@
 #ifndef _SSD1306_H
 #define _SSD1306_H
 
-#include "stm32f4xx_hal.h"
+
+#include "main.h" // must contain #include "stm32f4xx_hal.h" or similar
 #include "fonts.h"
 
 // I2c address
